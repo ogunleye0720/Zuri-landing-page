@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    min-height: 100vh;
+    max-width: 100%;
+    Font-size: 18px;
+}
+
+body{
+    height: 100%;
+    max-width: 100%;
+}
+
+h1,h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+.header-container{
+    width: 100vw;
+    height: 618px;
+    margin-bottom: 0%;
+    background: url(./images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    background-position-x: 20%;
+    background-size: cover;
+    background-color:  hsl(193, 100%, 96%);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 5%;
+    margin-bottom: 3%;
+    height: 15%;
+    width: 100%;
+    background-color: transparent;
+}
+
+nav img{
+    height: 25px;
+    width: 180px;
+    margin-left: 4.5%;
+}
+
+header{
+    height: 80%;
+    width: 100%;
+    padding-left: 2.5%;
+    padding-right: 5%;
+    background-color: transparent;
+    display: flex;
+}
+
+header .header-container-1{
+    width: 40%;
+    padding-bottom: 3%;
+    margin-left: 5%;
+}
+.header-container-1 h1{
+    color: hsl(192, 100%, 9%);
+    font-size: 1.9em;
+    margin-top: 25.4%;
+    margin-bottom: 10%;
+    width: 109%;
+    line-height: 1.45;
+}
+.header-container-1 p{
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin-bottom: 2%;
+    width: 112%;
+}
+
+.header-container-1 button{
+    color: #fff;
+    font-weight: 400;
+    width: 60%;
+    border: none;
+    background-color:  hsl(322, 100%, 66%);
+    box-shadow: 0 0 1px   hsl(208, 11%, 55%) ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 400;
+    padding: 3%;
+    border-radius: 27px;
+    margin-left: 17%;
+    margin-bottom: 5%;
+    margin-top: 8%;
+}
+header .header-container-2{
+    width: 70%;
+    height: 100%;
+    margin-left: 10%;
+    padding-left: 0%;
+    padding-right: 1%;
+    padding-bottom: 3%;
+    background-color: transparent;
+}
+.butt-1 button{
+    color: hsl(192, 100%, 9%);
+    width: 220%;
+    background-color: #fff;
+    border:none;
+    box-shadow: 0 0 1px   hsl(208, 11%, 55%) ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 15%;
+    border-radius: 27px;
+    margin-left: -180%; 
+}
+button:hover{
+    cursor: pointer;
+    width: 59%;
+}
+.butt-1 button:hover{
+    cursor: pointer;
+    width: 213%;
+    padding: 14%;
+}
+.header-container-2 img{
+    height: 100%;
+    width: 95%;
+    margin-right: 15%;
+    padding-left: 8%;
+}
+section{
+    width: 100%;
+    height: 1500px;
+    margin-top: -5%;
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 2%;
+    background-color: transparent;
+    position: relative;
+}
+
+.card-1, .card-3{
+    border-radius: 15px;
+    padding-bottom: 2%;
+    margin: 5%;
+    margin-bottom: 2%;
+    margin-right: 8%;
+    margin-top: 8%;
+    background-color: rgba(255, 255, 255, 0.966);
+    display: flex;
+    border: 3px hsl(193, 100%, 96%) solid;
+    box-shadow: 0 0 5px hsl(193, 100%, 96%) ;
+    justify-content: space-between;
+}
+.card-3{
+    margin-top: 1.2%;
+}
+.card-content-1,.card-content-3 {
+    margin-left: 12%;
+    width: 40%;
+    background-color: transparent;
+}
+
+.card-content-1 h2, .card-content-3 h2{
+    color:  hsl(192, 100%, 9%) ;
+    margin-top: 20%;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.card-content-1 p, .card-content-3 p{
+    width:102%;
+    margin-top: 4%;
+    color: hsl(208, 11%, 55%);
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+.card-content-3 p{
+    width: 95%;
+}
+.card-image-1,.card-image-3{
+    width: 40%;
+    margin-right: 1%;
+    margin-top: 1%;
+    padding-top: 0%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    background-color: transparent;
+}
+.card-image-1 img, .card-image-3 img{
+    margin-left: 5%;
+    height: 100%;
+    width: 80%;
+}
+.card-2{
+    border-radius: 15px;
+    padding-bottom: 2%;
+    margin: 5%;
+    margin-top: -10px;
+    margin-bottom: 1%;
+    margin-right: 8%;
+    background-color: rgba(255, 255, 255, 0.966);
+    display: flex;
+    border: 3px hsl(193, 100%, 96%) solid;
+    box-shadow: 0 0 5px hsl(193, 100%, 96%) ;
+    justify-content: space-between;
+}
+.card-content-2{
+    margin-right: 1%;
+    width: 40%;
+    background-color: transparent;
+}
+
+.card-content-2 h2{
+    color:  hsl(192, 100%, 9%) ;
+    margin-top: 15%;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.card-content-2 p{
+    width:105%;
+    margin-top: 4%;
+    padding-right: 5%;
+    margin-right: 1%;
+    color: hsl(208, 11%, 55%);
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.card-image-2{
+    width: 40%;
+    margin-top: 1%;
+    padding-top: 0%;
+    margin-left: 7%;
+    padding-bottom: 5%;
+    background-color: transparent;
+}
+.card-image-2 img{
+    margin-left: 5%;
+    height: 100%;
+    width: 80%;
+}
+
+.card-4{
+    width: 40%;
+    height: 15%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 3px hsl(193, 100%, 96%) solid;
+    border-radius: 15px;
+    box-shadow: 0 0 5px hsl(193, 100%, 96%) ;
+    padding: 3% 3% 5% 3%;
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 25%;
+
+}
+
+.card-4 h2{
+    width: 110%;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2%;
+    color:  hsl(192, 100%, 9%);
+}
+
+.card-4 button{
+    color: #fff;
+    font-weight: 400;
+    width: 60%;
+    background-color:  hsl(322, 100%, 66%);
+    border:3px hsl(193, 100%, 96%) solid;
+    box-shadow: 0 0 10px hsl(193, 100%, 96%) ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 400;
+    padding: 4%;
+    border-radius: 27px;
+    margin-left: 17%;
+    margin-bottom: 5%;
+    margin-top: 12%;
+}
+.card-4 button:hover{
+    cursor: pointer;
+    width: 59%;
+    padding: 3.5%;
+}
+
+footer{
+    color: #fff;
+    margin-top: 24%;
+    background-color: hsl(192, 100%, 9%);
+    height: 40%;
+    width: 110%;
+    margin-left: -8%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer-logo img{
+    height: 1%;
+    width: 29%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    filter:  brightness(0) invert(1);
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container p{
+    width: 32%;
+    margin-left: -11%;
+}
+
+.footer-container img{
+    height: 4%;
+    margin-top: 0.8%;
+    padding-right: 2%;
+}
+
+.wrap-1{
+    height: 20%;
+    margin-top: -1%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-items: center;
+    line-height: 2.0;
+}
+
+.wrap-1 p{
+    width: 100%;
+    margin-left: -50%;
+}
+.wrap-2{
+    height: 20%;
+    margin-top: -1%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-items: center;
+    line-height: 2.0;
+}
+
+.wrap-2 p{
+    width: 100%;
+    margin-left: -50%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-content-2{
+    display: flex;
+    line-height: 2.0;
+}
+.footer-content-2 img{
+    height: 2%;
+    margin-top: 1%;
+}
+.footer-content-2 p{
+    margin-left: 5%;
+}
+
+
+.footer-sub-content{
+    display: flex;
+    margin-top: 2%;
+}
+
+.footer-sub-content p{
+    margin-left: 5%;
+}
+
+.images-link{
+    display: flex;
+    justify-content: space-around;
+}
+.images-link img{
+    margin-top: -35%;
+    width: 80%;
+    height: 35%;
+    margin-left: -250%;
+}
+
+.footer-paragraph p{
+    margin-top: 4%;
+    margin-left: 80%;
+    font-size: 0.62em;
+}
